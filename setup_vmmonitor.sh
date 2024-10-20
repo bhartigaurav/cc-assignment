@@ -10,7 +10,7 @@ sudo apt-get install -y openjdk-11-jdk
 curl -O https://raw.githubusercontent.com/bhartigaurav/vmm-jar/main/vmmonitor-0.0.1-SNAPSHOT.jar
 
 #Start Service
-nohup java -jar vmmonitor-0.0.1-SNAPSHOT.jar > output.log 2>&1 & 
+sudo nohup java -jar vmmonitor-0.0.1-SNAPSHOT.jar > output.log 2>&1 & 
 
 #grep VMM
 ps aux | grep vmmonitor-0.0.1-SNAPSHOT.jar
