@@ -9,3 +9,5 @@ sudo apt-get install -y openjdk-11-jdk
 # Download the JAR file
 curl -O https://raw.githubusercontent.com/bhartigaurav/vmm-jar/main/vmmonitor-0.0.1-SNAPSHOT.jar
 
+#Start JAR
+sudo java -jar vmmonitor-0.0.1-SNAPSHOT.jar
